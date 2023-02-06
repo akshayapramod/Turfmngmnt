@@ -6,4 +6,5 @@ urlpatterns = [
     path('booking_history',views.booking_history,name='booking_history'),
     path('check_availability',views.check_availability,name='check_availability'),
     path('check_turf',views.check_turf,name='check_turf'),
+    path('user_home',views.user_home,name='user_home'),
 ]
